@@ -1,0 +1,111 @@
+﻿doctype //if lt IE 7
+html.no-js.lt-ie9.lt-ie8.lt-ie7  
+//if IE 7
+html.no-js.lt-ie9.lt-ie8  
+//if IE 8
+  html.no-js.lt-ie9  
+// [if gt IE 8] <!
+|  
+html.no-js(lang='en-US')
+  // <![endif]
+  // begin head
+  head
+    meta(charset='utf-8')
+    //if IE
+      meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    | &#x9;
+    title  騏駩
+    // begin meta
+    meta(name='viewport', content='width=device-width')
+    // end meta
+    link(rel='SHORTCUT ICON', href='/Picture/TitleIcon.ico')
+    // main stylesheet
+    link(rel='stylesheet', media='all', href='http://demo.s5themes.com/cody/wp-content/themes/cody/style.css')
+    // main stylesheet
+    // //################################# Begin Custom Typography #################################//
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Pacifico', rel='stylesheet', type='text/css')
+    style(type='text/css', media='all').
+      /* Body Font face */
+      body {
+      font-family: 'Open Sans', sans-serif;
+      ;
+      }
+      h1.blog-name {
+      font-family: 'Pacifico', cursive;
+      ;
+      }
+      /* Headings Font face */
+      h1,h2,h3,h4,h5,h6, .main h1, #intro {
+      font-family: 'Open Sans', sans-serif;
+      ;
+      }
+    // //################################# End Custom Typography #################################//
+    // //################################# Begin Custom Colors #################################//
+    style(type='text/css', media='all').
+      /* Body Text Color */
+      body {
+      color:#666659;
+      }
+      /* Body Links Color */
+      a{
+      color:#8C8C7B;
+      }
+      a:hover {
+      color:#000000;
+      }
+      /* Logo Text Color */
+      .blog-name a {
+      color:#C7BB73;
+      }
+      /* Headings Color */
+      h2,h3,h4,h5,h6  {
+      color:#2A2A26;
+      }
+      /* Sidebar Headings Color */
+      .widget .widget-title {
+      color:#FFFFFF;
+      }
+      /* Post Title Link Color */
+      .main article h2 a {
+      color:#8C8C7B;
+      }
+      .main article h2 a:hover {
+      color:#000000;
+      }
+      /* Navigation Link Color */
+      nav ul li a {
+      color:#8C8C7B !important;
+      }
+      nav ul li a:hover,
+      nav ul li.current-menu-item a,
+      nav ul li.current-post-parent a,
+      nav ul li a:hover,
+      nav ul li.current-menu-item a,
+      nav ul li.current-post-parent a {
+      color:#000000 !important;
+      }
+    // //################################# End Custom Colors #################################//
+    // begin wp_head
+    meta(name='robots', content='noindex,follow')
+    link(rel='alternate', type='application/rss+xml', title='Cody ? Feed', href='http://demo.s5themes.com/cody/feed/')
+    link(rel='alternate', type='application/rss+xml', title='Cody ? Comments Feed', href='http://demo.s5themes.com/cody/comments/feed/')
+    link#prettyphoto-css-css(rel='stylesheet', href='http://demo.s5themes.com/cody/wp-content/themes/cody/lib/prettyphoto/css/prettyPhoto.css?ver=1.0', type='text/css', media='all')
+    link#font-awesome-css(rel='stylesheet', href='http://demo.s5themes.com/cody/wp-content/themes/cody/css/font-awesome.css?ver=1.0', type='text/css', media='all')
+    link#jplayer-js-css(rel='stylesheet', href='http://demo.s5themes.com/cody/wp-content/themes/cody/lib/jplayer/jplayer.css?ver=1.0', type='text/css', media='all')
+    script(type='text/javascript', src='http://demo.s5themes.com/cody/wp-includes/js/jquery/jquery.js?ver=1.11.1')
+    script(type='text/javascript', src='http://demo.s5themes.com/cody/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1')
+    script(type='text/javascript', src='http://demo.s5themes.com/cody/wp-content/themes/cody/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js?ver=2.6.1')
+    link(rel='EditURI', type='application/rsd+xml', title='RSD', href='http://demo.s5themes.com/cody/xmlrpc.php?rsd')
+    link(rel='wlwmanifest', type='application/wlwmanifest+xml', href='http://demo.s5themes.com/cody/wp-includes/wlwmanifest.xml')
+    |  
+    meta(name='generator', content='WordPress 4.1')
+    link(rel='shortcut icon', href='http://demo.s5themes.com/cody/wp-content/themes/cody/favicon.ico', type='image/ico')
+    | &#x9;
+    style(type='text/css').
+      .recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+    // end wp_head
+  // end head
+  body
+    block content
